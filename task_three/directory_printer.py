@@ -8,6 +8,8 @@ def print_directory(path: str, indentation: str='') -> None:
     
     path:
         path to the directory
+    indentation:
+        whitespace that is used as indentation for nested folders and files
     """
     path_object = Path(path)
 
